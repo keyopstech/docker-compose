@@ -2,7 +2,7 @@ FROM docker:stable
 
 MAINTAINER mickael@keyops.tech
 
-ENV DOCKER_COMPOSE_VERSION 1.24.0
+ENV DOCKER_COMPOSE_VERSION 1.24.1
 
 RUN apk add --no-cache make git py-pip \
     && apk add --no-cache --virtual .build-deps \
